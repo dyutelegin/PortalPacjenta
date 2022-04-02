@@ -1,0 +1,4 @@
+<patients>
+    <patient Imie="Jan" Nazwisko="Kowalski" PESEL="12345678901" Adres="Okopowa" />
+    <patient Imie="Mateusz" Nazwisko="Nowak" PESEL="12345678901" Adres="Obazowa" />
+</patients>

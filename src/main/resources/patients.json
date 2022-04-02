@@ -1,0 +1,14 @@
+[
+  {
+    "Imie": "Jan",
+    "Nazwisko": "Kowalski",
+    "PESEL": "12345678901",
+    "Adres": "Okopowa"
+  },
+  {
+    "Imie": "Mateusz",
+    "Nazwisko": "Nowak",
+    "PESEL": "12345678901",
+    "Adres": "Obazowa"
+  }
+]

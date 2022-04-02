@@ -3,7 +3,7 @@ package factory;
 import java.util.ArrayList;
 
 public class NotificationService {
-    public static void notificaionService(){
+    public static void notificationService(){
         var notificationFactory = new NotificationFactory();
         var notificationList = new ArrayList<Notification>();
 

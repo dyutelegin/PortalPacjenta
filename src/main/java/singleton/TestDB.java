@@ -11,12 +11,10 @@ public class TestDB {
             ResultSet resultSet = stmt.executeQuery();
             ResultSet resultSet2 = stmt2.executeQuery();
             while (resultSet2.next()) {
-                System.out.println("Pacjent: " + resultSet2.getString("Imie")
-                        + " " + resultSet2.getString("Nazwisko") + " " + resultSet2.getString("PESEL"));
+                System.out.println("Pacjent: " + resultSet2.getString("Imie") + " " + resultSet2.getString("Nazwisko") + " " + resultSet2.getString("PESEL"));
             }
             while (resultSet.next()) {
-                System.out.println("Doktor: " + resultSet.getString("Imie")
-                        + " " + resultSet.getString("Nazwisko") + " " + resultSet.getString("Stanowisko"));
+                System.out.println("Doktor: " + resultSet.getString("Imie") + " " + resultSet.getString("Nazwisko") + " " + resultSet.getString("Stanowisko"));
             }
         } catch (Exception e) {
         }

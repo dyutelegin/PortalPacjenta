@@ -1,12 +1,19 @@
 package klient;
 
-import fasade.FasadePortal;
+import facade.FacadePortal;
+
+import java.io.File;
+import java.util.Arrays;
 
 public class Klient {
 
     public static void main(String[] args) {
-        FasadePortal.fasadeDB();
-        FasadePortal.fasadeFactory();
+        FacadePortal.facadeDB();
+        FacadePortal.facadeFactory();
+        FacadePortal.facadeAdapter(Arrays.asList(
+                new File("C:\\Users\\Daniil\\IdeaProjects\\Adapter\\src\\main\\resources\\patients.json"),
+                new File("C:\\Users\\Daniil\\IdeaProjects\\Adapter\\src\\main\\resources\\patients.xml"))
+        );
     }
 
 }
