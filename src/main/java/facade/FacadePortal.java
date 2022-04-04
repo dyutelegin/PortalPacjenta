@@ -25,4 +25,8 @@ public class FacadePortal {
     public static void facadeTemplate(AbstractTemplateSQL abstractTemplateSQL) {
         abstractTemplateSQL.templateMetod();
     }
+
+    public static void facadeIterator() {
+
+    }
 }
